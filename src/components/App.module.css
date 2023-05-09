@@ -1,0 +1,51 @@
+.container {
+  padding: 50px;
+  font-size: 40px;
+}
+
+.title {
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.wrapperBtn {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms ease-in, color 300ms ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: bisque;
+  color: black;
+}
+
+.message {
+  font-style: italic;
+  color: red;
+}
+
+.stats {
+  font-size: 25px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.span {
+  color: red;
+}
