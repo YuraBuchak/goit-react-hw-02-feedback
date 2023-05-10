@@ -1,6 +1,15 @@
 .container {
-  padding: 50px;
+  padding: 20px;
   font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  border: 5px solid blueviolet;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -20,7 +29,7 @@
   width: 150px;
   padding: 5px;
   font-size: 25px;
-  color: white;
+  color: antiquewhite;
   background-color: black;
   border: 3px solid blueviolet;
   border-radius: 5px;
@@ -31,18 +40,19 @@
 
 .btn:hover,
 .btn:focus {
-  background-color: #ffffff;
+  background-color: antiquewhite;
   color: black;
 }
 
 .message {
   font-style: italic;
+  font-size: 25px;
   color: red;
 }
 
 .stats {
   font-size: 25px;
-  color: blueviolet;
+  color: black;
   font-weight: bold;
 }
 
